@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Nav from "./Components/Nav.jsx";
-// import CountrySearch from "./Components/CountrySearch.tsx";
+import CountrySearch from "./Components/CountrySearch.tsx";
 // import RenderCountries from "./Components/RenderCountries.tsx";
 import { Router } from "react-router-dom";
 import history from "./history";
@@ -15,8 +15,8 @@ function App() {
         </header>
         <div>
           <Nav />
-          {/* <CountrySearch />
-          <RenderCountries /> */}
+          <CountrySearch />
+          {/* <RenderCountries />  */}
         </div>
       </div>
     </Router>

@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/react-router": "^5.1.7",
     "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
@@ -19,7 +20,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
-    "styled-components": "^5.1.0"
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "format": "prettier \"src/**/*.{js,jsx,html}\" --write",
