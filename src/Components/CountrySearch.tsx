@@ -102,7 +102,6 @@ const CountrySearch: React.FC<OwnState> = () => {
       newCountryList = countries;
     }
     setFilteredCountries(newCountryList);
-    // setOpen(false);
   };
 
   const dropDownCountries = () => {
